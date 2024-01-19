@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <!-- INFO This the header and navigation -->
+        <nav>
+                <ul>
+                    <a href="index.html">Home Page</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact Us</a>
+                </ul>
+            </nav> 
+        <!-- INFO - this section includes a header and a simple contact form -->
+        <section>
+                <h1>Ready to learn more?</h1>
+                <h4>Complete the contact form below.</h4>
+                <div class="form=container"></div>
+                <form >
+                        <div class="form-group">
+                                <!-- INFO input for First Name -->
+                                <input type="text" name="fname" id="First Name" placeholder="Enter your first name">
+                        </div>
+
+                        <div class="form-group">
+                                <!-- INFO input for Last Name -->
+                                <input type="text" name="lname" id="Last Name" placeholder="Enter your last name">
+                        </div>
+
+                        <div class="form-group">
+                                <!-- INFO input for email address -->
+                                <input type="text" name="email" id="email" placeholder="Enter your email address">
+                        </div>
+                        <h4>Select which courses you would like to know more about and we'll send you a free preview video.</h4>
+                        <!-- INFO checkboxes to select with courses the user is interested in -->
+                        <div class="checkbox-group"> 
+                                <label class="checkbox">
+                                        <input type="checkbox" name="checkbox1" id="checkbox1"> Foundations
+                                </label>
+                                <label class="checkbox">
+                                        <input type="checkbox" name="checkbox2" id="checkbox2"> Project Management
+                                </label>
+                                <label class="checkbox">
+                                        <input type="checkbox" name="checkbox3" id="checkbox3"> Customer Journey Mapping
+                                </label>
+                        </div>
+                        <!-- INFO  submit button-->
+                        <input type="submit" value="Send me my free preview">
+                </form>
+        </section>
+</body>
+</html>
